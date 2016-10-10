@@ -1,0 +1,19 @@
+.wrapper{
+	border:2px solid red;
+	display: inline-block;
+}
+
+.row{
+	display: block;
+}
+.row>div{
+	float: left;
+	border:1px solid black;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+}
+
+.active{
+	background-color: purple;
+}
