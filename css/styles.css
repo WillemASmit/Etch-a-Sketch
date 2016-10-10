@@ -1,6 +1,6 @@
 .wrapper{
 	border:2px solid red;
-	margin: auto;
+	margin: 0px 0px 0px 400px;
 	display: inline-block;
 }
 
@@ -9,20 +9,22 @@
 }
 .row>div{
 	float: left;
-	width: 15px;
-	height: 15px;
 	display: block;
-}
-
-.active{
-	background-color: purple;
+	background-color: black;
+	opacity: 0;
 }
 
 #button{
 	display: block;
-	margin: 10px auto;
+	margin: 10px 0px 0px 600px;
 }
 
 body{
 	display: block;
+	background-color: yellow;
+}
+
+p{
+	font-size: 15px;
+	text-align: center;
 }
